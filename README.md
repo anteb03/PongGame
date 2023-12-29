@@ -12,19 +12,19 @@ Project: Pong Game
 2.1. Instalacija Visual Studio-a:
 - Posjeti ovu stranicu za preuzimanje Visual Studio-a: https://visualstudio.microsoft.com/downloads/ 
 - Preuzmi i instaliraj odgovarajuću verziju za tvoj operativni sustav.
-- Kreiraj novi empty project i spremi na mjesto.
+- Kreiraj novi empty project i spremi na odgovarajuce mjesto na racunalu.
 
 2.2. Preuzimanje Raylib biblioteke: (ukoliko imas 64 bitni uređaj, onda netreba preuzimanje jer je ima u ovom repositoryju)
 - Posjeti Raylib na GitHub-u: https://github.com/raysan5/raylib/releases/tag/5.0 
 - Na dnu stanice, u sekciji "Assets", odaberi raylib-5.0_win32_msvc16.zip ili raylib-5.0_win64_msvc16.zip ovisno o vrsti operativnog sustava koji koristiš
 - Preuzmi i raspakiraj zip datoteku.
  
-- Sada možeš klonirati projekt. 
+- Sada možeš klonirati projekt (ili pojedine fileove). 
 
 2.3. Postavljanje projekta: 
-- Izbrisati Raylib mapu i staviti raspakiranu.
+- Izbrisati Raylib mapu i staviti raspakiranu. (ako je prethodno instliran novi Raylib library)
 - Otvoriti kreirani projekt.
-- Prilikom pokretanja trebao bi se prikazati prozor Solution Explorer - zatim desna tipka na PongGame -> Properties
+- Prilikom pokretanja trebao bi se prikazati prozor Solution Explorer - zatim desna tipka na "Ime projekta" -> Properties
 - Zatim stinsuti C/C++ -> General i u polje Additional Include Directories postaviti lokaciju do mape include unutar Raylib mape
 - Zatim stisnuti Linker -> General i u polje Additional Library Directories postaviti lokaciju do mape lib unutar Raylib mape
 - Zatim stisnuti Linker -> Input i u polje Additional Dependencies staviti raylib.lib i winmm.lib
